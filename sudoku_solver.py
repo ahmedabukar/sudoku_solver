@@ -86,3 +86,8 @@ def text(board):
             else:
                 print(str(board[i][j]) + " ", end="")
 
+text(example)
+solve(example)
+
+print("**********************")
+text(example)
